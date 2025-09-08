@@ -11,6 +11,10 @@ Env:
 Docs:
   Endpoint: https://api.search.brave.com/res/v1/web/search
   Auth header: X-Subscription-Token: <API_KEY>
+Setup:
+  python3 -m venv venv
+  source venv/bin/activate
+  pip install requests
 """
 
 import argparse
