@@ -2,6 +2,12 @@
 """
 Minimal CLI for Brave Web Search API
 
+Instructions:
+  If user asks for information that can be fetched from internet:
+   - Use the brave_web_search tool above to get web search results.
+   - Save the information to a file
+   - Parse it to get information you need.
+ 
 Usage:
   python brave_web_search/main.py --q "greek restaurants in san francisco" --count 10 --country us --lang en --table
   python brave_web_search/main.py --q "latest LLM papers" --count 5 --json
